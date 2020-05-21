@@ -1,19 +1,72 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=500, initial-scale=1">
+    <header>
+      <title>My Resume</title>
 
-  <title>My Resume</title>
+      <link rel="stylesheet" href="css/index.css" />
+      <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+      <![endif]-->
+    </header>
+  </head>
 
-  <link rel="stylesheet" href="css/index.css">
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#workhistory">Work History</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>My Resume</h1>
+    <img src="imgs/photo.jpg">
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-  <h1>My Resume</h1>
-</body>
+    <section <a id="intro"></a>
+      <h2>A quick intro</h2>
+      <p>I would be a good asset to work for your company as I catch on quickly and adapt to many different challenges. I am punctual and polite, as well as focused with the tasks at hand, at any given time.</p>
+    </section>
+    <section <a id="skills"></a>
+      <h2>Skills</h2>
+      <p>I know enough to get myself stuck on webpage design!</p>
+    </section>
+    <section <a id="workhistory"></a>
+      <h2>Work History</h2>
+      <p>I have almost zero coding experience. The majority of my work history is Labor intensive and 8 years Active in the US Army as a Military Police Officer 2006-2014.</p>
+    </section>
+    <section <a id="contact"></a>
+      <h2>Contact Me</h2>
+      <p>Use the form below if you would like to get in touch with me!</p>
+      <a href="https://keen-pare-dec5da.netlify.app/index.html">Portfolio link</a>
+      <form>
+        <label for="firstname">First Name</label>
+        <input type="text" name="First Name"> 
+        <br>
+        <br>
+        <label for="email">Email  </label>
+        <input id="email" type="text" name="Email">
+        <br>
+        <br>
+        <label for="message">Message</label>
+        <textarea></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+  <footer>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#workhistory">Work History</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
 </html>
